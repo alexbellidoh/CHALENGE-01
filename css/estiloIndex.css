@@ -1,0 +1,118 @@
+#entrada_texto{
+    outline:none;
+    resize:none;
+}
+#entrada_texto::placeholder{
+    color: #0A3871;
+    
+}
+
+button{
+    border: 1px solid #0A3871;
+}
+    #btnEncriptar:hover{
+        background: #072B61;
+    }
+    #btnDesencriptar:hover{
+        background: #EFF1FA;
+    }
+    #btnCopiar:hover{
+        background: #F3F5FC;
+    }
+    
+#display_resultado{
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+}
+
+@media only screen and (min-width: 1440px) {
+    #display_secciones{
+        display: flex;
+        flex-direction: row;
+        height: 100vh;
+        align-items: stretch;
+    }
+
+
+    #marco-header{
+        width: 120px;
+    }
+    #marco-header div{
+        display: flex;
+        justify-content: center;
+    }
+
+    #marco-formulario{
+        padding: 40px;
+        flex: 1 1 0%;
+    }
+        #display_formulario{
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+            #display_input,#marco_caja_texto{
+                flex-basis: 100%;
+            }
+
+            #display_botones{
+                padding-bottom: 32px;
+            }
+
+
+
+
+
+
+    #marco-resultado{
+        width: 400px;
+    }
+        #display_resultado{
+            height: 100% ;
+            display: flex;
+            flex-direction: column;
+        }
+            #marco_interno_resultado{
+                height: 100%;
+            }  
+                #contenido_Resultado,#contenido_SinResultado,#display_CR{
+                    height: 100%;
+                }   
+                    #display_SR{
+                        height: 100%;
+                        justify-content: center;
+                    }
+
+                    #salida_texto{
+                        flex-basis: 100%;
+                    }
+                    #imagen-muñeco{
+                        display: inline;
+                    }
+}
+
+@media only screen and (min-width: 768px){
+    #display_botones{
+        flex-direction: row;
+    }
+    #display_input{
+        min-height: 566px;
+    }
+    #marco_caja_texto{
+        height: 600px;
+    }
+
+    #marco-header{
+        padding: 40px;
+    }
+    #marco-formulario{
+        
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    
+    #marco-resultado{
+        padding: 40px;
+    }
+}
+
+

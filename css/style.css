@@ -1,0 +1,95 @@
+/* COLOR BACKGROUND  */
+.bg-white{background: white;}
+
+.bg-dark-blue-100{background: #609ED4;}.bg-dark-blue-200{background: #356EA9;}.bg-dark-blue-300{background: #0A3871;}.bg-dark-blue-400{background: #072B61;}.bg-dark-blue-500{background: #052051;}
+.bg-light-blue-100{background: #F3F5FC;}.bg-light-blue-200{background: #EFF1FA;}.bg-light-blue-300{background: #E9ECF8;}.bg-light-blue-400{background: #AAB2D5;}.bg-light-blue-500{background: #757FB2;}
+.bg-gray-100{background: #CED4DA;}.bg-gray-200{background: #ADB5BD;}.bg-gray-300{background: #868E96;}.bg-gray-400{background: #495057;}.bg-gray-500{background: #343A40;}
+
+
+
+
+
+
+/* ______________________________________________________________________________________________Layout */
+/* Display */
+.inline{display: inline;}
+.hidden{display: none;}
+.flex{display: flex;} 
+
+
+/* ______________________________________________________________________________________________Flexbox & Grid */
+/*  */
+.basis-full{flex-basis: 100%;}
+/* Flex Direction */
+.flex-row{flex-direction: row;} .flex-row-reverse{flex-direction: row-reverse;}.flex-col{flex-direction: column;}.flex-col-reverse{flex-direction: column-reverse;}
+/* Gap */
+.gap-2{gap: 8px;}.gap-4{gap: 1rem; /* 16px */}.gap-6{gap: 1.5rem; /* 24px */}.gap-8{gap: 2rem; /* 32px */}.gap-12{gap: 3rem; /* 32px */}
+/* Justify Content */
+.justify-center{justify-content: center;}
+/* Justify Items */
+.justify-items-center{justify-items: center;}
+/* Align Items */
+.items-center{align-items: center;}
+
+
+/* ______________________________________________________________________________________________Spacing */
+
+/* PADDING */
+.p-0{padding: 0px;} .p-8{padding: 32px;}        .p-6{padding: 24px;} 
+.px-0{padding-left: 0px;padding-right: 0px;}    .px-4{padding-left: 16px;padding-right: 16px;}.px-6{padding-left: 24px;padding-right: 24px;}
+.py-0{padding-top: 0px;padding-bottom: 0px;}    .py-4{padding-top: 16px;padding-bottom: 16px;}.py-6{padding-top: 24px;padding-bottom: 24px;}  .py-10{padding-top: 40px;padding-bottom: 40px;}
+
+
+
+/* ______________________________________________________________________________________________Sizing */
+
+/* Width */
+.w-full{width: 100%;}
+/* Height */
+.h-12{height: 48px;}.h-80{height: 320px;}
+.h-full{height: 100%;}
+/* Min-Height */
+.min-h-0{min-height: 0px;}.min-h-80{min-height: 320px;}
+/* Max-Height */
+.max-h-max{max-height: max-content;}
+.max-h-fit{max-height: fit-content;}
+
+
+/* ______________________________________________________________________________________________Typography */
+
+/* Font Family */
+.font-sans{font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";}
+
+/* Font Size */
+.text-base{font-size: 1rem; /* 16px */  line-height: 1.5rem; /* 24px */}
+.text-2xl{font-size: 1.5rem; /* 24px */ line-height: 2rem; /* 32px */}
+.text-8{font-size: 32px;}
+
+/* Font Weight */
+.font-normal{font-weight: 400;}.font-medium{font-weight: 500;}.font-semibold{font-weight: 600;}.font-bold{font-weight: 700;}
+
+/* Line Height */
+.leading-7{line-height: 1.75rem; /* 28px */}.leading-12{line-height: 48px;}
+
+/* Text Align */
+.text-left{text-align: left;}.text-center{text-align: center;}.text-right{text-align: right;}.text-justify{text-align: justify;}.text-start{text-align: start;}.text-end{text-align: end;}
+
+/* Text Color */
+.text-dark-blue-300P{color: #0A3871;}
+.text-gray-400P{color: #495057;}.text-gray-500P{color: #343A40;}
+
+.text-white{color: white;}
+
+
+
+
+/* ______________________________________________________________________________________________Backgrounds */
+
+
+/* ______________________________________________________________________________________________Borders */
+
+/* Border Radius */
+.rounded-3xl{border-radius: 1.5rem; /* 24px */}
+.rounded-8{border-radius: 2rem; /* 32px */}
+/* Border Width */
+.border-0{border-width: 0px;} .border{border-width: 1px;}
